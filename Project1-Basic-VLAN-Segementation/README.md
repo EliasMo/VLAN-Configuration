@@ -6,7 +6,7 @@ VLANs are used in departments to secure and manage the traffic.
 Objective: Show VLAN isolation by creating separate broadcast domains.
 
 Steps: 
-  - Configure VLAN 10 and 20 on the Catalyst 900
+  - Configure VLAN 10 and 20 on the switch
   - Assign Host1 to VLAN 10 and Host2 to VLAN 20 and connect them to the Switch
   - Use ping tests to show that Host 1 and 2 cannot communicate, illustrating VLAN segementation 
 
@@ -36,12 +36,8 @@ Configure Alphine Desktop PCs (make sure you are in root) -
 
 ![image](https://github.com/user-attachments/assets/302eec63-805c-4ac0-a219-07c4b08d1828)
 
-- Press ESC and type :wq and press enter
 
-- Check the file change
-![image](https://github.com/user-attachments/assets/1157ee2a-cf27-4415-ae3c-b20563fe32f2)
-
-- repeat for Desktop2
+- repeat for Desktop 2
 
 ![image](https://github.com/user-attachments/assets/14682d34-f8ba-4147-9ea0-48db29b62228)
 
@@ -51,7 +47,7 @@ Configure Alphine Desktop PCs (make sure you are in root) -
 
 ![image](https://github.com/user-attachments/assets/4c5407ec-12e6-4161-9d41-48f401c6146e)
 
-- Testing Vlan
+- Testing VLAN
 
     - From Desktop 1
 
@@ -68,7 +64,4 @@ Configure Alphine Desktop PCs (make sure you are in root) -
 
 
 
-
-
-![image](https://github.com/user-attachments/assets/486d7f24-0e6e-408e-b799-1d2a8e4e156f)
 
